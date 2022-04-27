@@ -76,3 +76,38 @@ function flip(){
 }
 
 
+// this is called a date object
+let date = new Date();
+//these get elements from date
+let year = date.getFullYear();
+let day = date.getDate();
+console.log(date);
+console.log(year);
+console.log(day);
+
+
+// replacing Content in HTML with Java script
+document.querySelector('#yr').textContent = year;
+
+// sends new HTML code to be implimented.
+document.querySelector('.text').innerHTML = '<h2> Subtitle </h2>'
+
+// creating a new element that does not exitst
+let newelement = document.createElement('p');
+// adding content to element
+newelement.textContent = 'new text Secret tunnel secret tunnel';
+//placing content in element on page
+document.querySelector('div').appendChild(newelement);
+
+
+//using arrays
+let classes = ['CSE121', 'CSE350', 'CSE560']
+
+document.querySelector('ul').textContent = classes.join('\n');
+
+classes.push('newClass')
+
+document.querySelector('ul').textContent = classes.join('\n');
+
+// resise a immage with jave
+document.querySelector('img').setAttribute('src', 'img/pciture')
