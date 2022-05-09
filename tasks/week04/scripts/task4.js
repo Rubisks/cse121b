@@ -5,23 +5,33 @@
 // Step 1: Declare a new variable to hold information about yourself
 let myInfo ={
     // Step 2: Inside of the object, add a property named name with a value of your name as a string
-    name : 'Tucker Strand'
+    name : 'Tucker Strand',
     // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-
+    photo : "images/photo.jpeg",
     // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
-
+    favoriteFoods : ["Pizza", "Pasta", "IceCream", ],
     // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
-
+    hobbies : ["hiking", "robotics", "electronics"],
     // Step 6: Add another property named placesLived with a value of an empty array
 
-    // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
-
-    // Step 8: For each property, add appropriate values as strings
-
-    // Step 9: Add additional objects with the same properties for each place you've lived
 }
-
-
+    // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
+myInfo.placesLived = [
+    // Step 8: For each property, add appropriate values as strings
+    // Step 9: Add additional objects with the same properties for each place you've lived
+    {
+        place : 'Rexburg Idaho',
+        length: '5 Years'
+    },
+    {
+        place : 'laGrande Oregon',
+        length: '20 Years'
+    },
+    {
+        place : 'SanDiego California',
+        length: '2 Years'
+    },
+]
 
 /* OUTPUT */
 
